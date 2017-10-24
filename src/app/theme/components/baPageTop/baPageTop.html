@@ -1,0 +1,31 @@
+<div class="page-top clearfix" baScrollPosition maxHeight="50" (scrollChange)="scrolledChanged($event)" [ngClass]="{scrolled: isScrolled}">
+  <a routerLink="/pages/inicio/actividades" class="al-logo clearfix">
+    Feya
+    <!-- <img src="/assets/img/logo.png" class="img-responsive logo-bar-menu" alt="" width="125"/> -->
+  </a>
+  <a href (click)="toggleMenu()" class="collapse-menu-link ion-navicon"></a>
+
+  <!-- <div class="search">
+    <i class="ion-ios-search-strong"></i>
+    <input id="searchInput" type="text" placeholder="Search for..."/>
+  </div> -->
+
+  <!-- <div class="user-profile clearfix">
+    <div class="dropdown al-user-profile">
+      <a class="profile-toggle-link dropdown-toggle" id="user-profile-dd" data-toggle="dropdown" aria-expanded="false">
+        <img src="{{facebookPhotoUrl}}"/>
+      </a>
+      <ul class="dropdown-menu top-dropdown-menu profile-dropdown" aria-labelledby="user-profile-dd">
+        <li class="dropdown-item cursor-pointer">
+          <a (click)="profile()">
+            <i class="fa fa-user"></i>
+            Profile</a>
+        </li>
+        <li (click)="logout()" class="dropdown-item cursor-pointer">
+          <a class="signout">
+            <i class="fa fa-power-off"></i>Logout</a>
+        </li>
+      </ul>
+    </div>
+  </div> -->
+</div>
