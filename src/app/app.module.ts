@@ -11,7 +11,7 @@ import { LOCALE_ID } from '@angular/core';
 /*
  * Platform and Environment providers/directives/pipes
  */
-import {routing} from './app.routing';
+import { routing } from './app.routing';
 
 // App is our top level component
 import {App} from './app.component';
