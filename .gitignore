@@ -3,6 +3,7 @@
 *.log
 .vagrant/
 # compiled output
+/dist
 /tmp
 /out-tsc
 /docs/build
